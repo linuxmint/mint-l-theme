@@ -33,15 +33,15 @@ os.system("mkdir -p usr/share/themes")
 
 curdir = os.getcwd()
 
-os.chdir("src/Mint-Y")
+os.chdir("src/Mint-Y-Legacy")
 os.system("./build-themes.py")
 os.chdir(curdir)
 
-# Mint-Y color variations
+# Mint-Y-Legacy color variations
 for color in y_hex_colors1.keys():
     for variant in ["", "-Dark", "-Darker"]:
-        original_name = "Mint-Y%s" % variant
-        path = os.path.join("src/Mint-Y/variations/%s" % color)
+        original_name = "Mint-Y-Legacy%s" % variant
+        path = os.path.join("src/Mint-Y-Legacy/variations/%s" % color)
         if os.path.isdir(path):
             print("Derivating %s-%s" % (original_name, color))
 
@@ -62,7 +62,7 @@ for color in y_hex_colors1.keys():
                 change_value(key, "%s-%s" % (metacity_variant, color), theme_index)
 
             # Regenerate GTK3 sass
-            os.system("cp -R src/Mint-Y/gtk-3.0/sass %s/gtk-3.0/" % theme)
+            os.system("cp -R src/Mint-Y-Legacy/gtk-3.0/sass %s/gtk-3.0/" % theme)
             y_colorize_directory("%s/gtk-3.0/sass" % theme, color)
             os.chdir("%s/gtk-3.0" % theme)
             if (variant == "-Dark"):
@@ -82,7 +82,7 @@ for color in y_hex_colors1.keys():
             # Regenerate Cinnamon sass
             if (variant != "-Darker"):
                 # Darker variants have no cinnamon style
-                os.system("cp -R src/Mint-Y/cinnamon/sass %s/cinnamon/" % theme)
+                os.system("cp -R src/Mint-Y-Legacy/cinnamon/sass %s/cinnamon/" % theme)
                 y_colorize_directory("%s/cinnamon/sass" % theme, color)
                 os.chdir("%s/cinnamon" % theme)
                 if (variant == "-Dark"):

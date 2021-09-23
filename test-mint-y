@@ -2,14 +2,14 @@
 
 CURDIR=`pwd`
 
-cd src/Mint-Y
+cd src/Mint-Y-Legacy
 ./build-themes.py
 
 cd $CURDIR
 
-sudo rm -rf /usr/share/themes/Mint-Y
-sudo cp -R usr/share/themes/Mint-Y /usr/share/themes/Mint-Y
+sudo rm -rf /usr/share/themes/Mint-Y-Legacy
+sudo cp -R usr/share/themes/Mint-Y-Legacy /usr/share/themes/Mint-Y-Legacy
 
 # Force refresh
-gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y-Blue'
-gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y'
+gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y-Legacy-Blue'
+gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y-Legacy'
