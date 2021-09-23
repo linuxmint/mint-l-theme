@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import os
 
-from constants import X_HEX_ACCENTS
 from constants import Y_HEX_ACCENT1, Y_HEX_ACCENT2, Y_HEX_ACCENT3, Y_HEX_ACCENT4
 from constants import y_hex_colors1, y_hex_colors2, y_hex_colors3, y_hex_colors4
 
@@ -11,10 +10,6 @@ def change_value (key, value, file):
     else:
         command = "sed -i '/%(key)s=/d' %(file)s" % {'key':key, 'file':file}
     os.system(command)
-
-def x_colorize_directory (path, variation):
-    for accent in X_HEX_ACCENTS:
-        os.system("find %s -name '*.*' -type f -exec sed -i 's/%s/%s/gI' {}  \\;" % (path, accent, x_hex_colors[variation]))
 
 def y_colorize_directory (path, variation):
     for accent in Y_HEX_ACCENT1:
