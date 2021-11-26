@@ -1,3 +1,15 @@
+mint-themes-legacy (1.8.9) una; urgency=medium
+
+  * Remove Mint-X
+  * Remove unnecessary files
+  * Rename to Mint-Y-Legacy - string occurences
+  * Rename to Mint-Y-Legacy: filenames
+  * Rename: packaging
+  * Rename: Finishing touches
+  * Mint-Y: Only ship a single metacity theme
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 26 Nov 2021 14:30:08 +0000
+
 mint-themes-legacy (1.8.8) uma; urgency=medium
 
   * Copy of mint-themes 1.8.8
