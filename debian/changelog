@@ -1,3 +1,10 @@
+mint-themes-legacy (1.9.0) una; urgency=medium
+
+  * Revert "Mint-Y: Only ship a single metacity theme"
+  * Fix Cinnamon thumbnails
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 17 Dec 2021 13:00:39 +0000
+
 mint-themes-legacy (1.8.9) una; urgency=medium
 
   * Remove Mint-X
