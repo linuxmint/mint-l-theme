@@ -52,6 +52,10 @@ for color in y_hex_colors1.keys():
             for key in ["IconTheme"]:
                 change_value(key, "Mint-Y-%s" % color, theme_index)
 
+            for key in ["MetacityTheme"]:
+                metacity_variant = original_name.replace("Darker", "Dark")
+                change_value(key, "%s-%s" % (metacity_variant, color), theme_index)
+
             # Regenerate GTK3 sass
             os.system("cp -R src/Mint-Y-Legacy/gtk-3.0/sass %s/gtk-3.0/" % theme)
             y_colorize_directory("%s/gtk-3.0/sass" % theme, color)
@@ -89,6 +93,8 @@ for color in y_hex_colors1.keys():
             files.append(os.path.join(theme, "gtk-2.0", "panel.rc"))
             files.append(os.path.join(theme, "gtk-2.0", "apps.rc"))
             files.append(os.path.join(theme, "gtk-2.0", "menubar-toolbar", "gtkrc"))
+            files.append(os.path.join(theme, "metacity-1", "metacity-theme-2.xml"))
+            files.append(os.path.join(theme, "metacity-1", "metacity-theme-3.xml"))
             for file in files:
                 if os.path.exists(file):
                     for accent in Y_HEX_ACCENT1:
