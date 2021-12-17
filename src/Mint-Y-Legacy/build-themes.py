@@ -65,7 +65,7 @@ if __name__ == '__main__':
             os.system("mkdir -p %s" % version_folder)
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
             os.system("cp -R cinnamon/light-assets %s" % version_folder)
-            os.system("cp cinnamon/mint-y-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
+            os.system("cp cinnamon/mint-y-legacy-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
             os.system("cp cinnamon/cinnamon.css %s" % version_folder)
             # XFWM
             os.system("cp -R xfwm4 %s" % dest_folder)
@@ -116,7 +116,7 @@ if __name__ == '__main__':
             os.system("mkdir -p %s" % version_folder)
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
             os.system("cp -R cinnamon/dark-assets %s" % version_folder)
-            os.system("cp cinnamon/mint-y-dark-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
+            os.system("cp cinnamon/mint-y-legacy-dark-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
             os.system("cp cinnamon/cinnamon-dark.css %s" % os.path.join(version_folder, "cinnamon.css"))
             # XFWM
             os.system("rm -rf %s" % os.path.join(dest_folder, "xfwm4"))
