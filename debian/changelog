@@ -1,3 +1,10 @@
+mint-themes-legacy (1.9.1) vanessa; urgency=medium
+
+  [ Michael Webster ]
+  * Add support for calendar events.
+
+ -- Clement Lefebvre <clem@macbook>  Tue, 14 Jun 2022 14:30:00 +0200
+
 mint-themes-legacy (1.9.0) una; urgency=medium
 
   * Revert "Mint-Y: Only ship a single metacity theme"
