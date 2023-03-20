@@ -50,7 +50,7 @@ for color in y_hex_colors1.keys():
                 change_value(key, "%s-%s" % (original_name, color), theme_index)
 
             for key in ["IconTheme"]:
-                change_value(key, "Mint-Y-%s" % color, theme_index)
+                change_value(key, "Mint-L-%s" % color, theme_index)
 
             for key in ["MetacityTheme"]:
                 metacity_variant = original_name.replace("Darker", "Dark")
