@@ -1,24 +1,24 @@
-mint-themes-legacy (1.9.2) vera; urgency=medium
+mint-l-theme (1.9.2) vera; urgency=medium
 
   * Update Cinnamon thumbnails
 
  -- Clement Lefebvre <root@linuxmint.com>  Thu, 24 Nov 2022 22:09:08 +0000
 
-mint-themes-legacy (1.9.1) vanessa; urgency=medium
+mint-l-theme (1.9.1) vanessa; urgency=medium
 
   [ Michael Webster ]
   * Add support for calendar events.
 
  -- Clement Lefebvre <clem@macbook>  Tue, 14 Jun 2022 14:30:00 +0200
 
-mint-themes-legacy (1.9.0) una; urgency=medium
+mint-l-theme (1.9.0) una; urgency=medium
 
   * Revert "Mint-Y: Only ship a single metacity theme"
   * Fix Cinnamon thumbnails
 
  -- Clement Lefebvre <root@linuxmint.com>  Fri, 17 Dec 2021 13:00:39 +0000
 
-mint-themes-legacy (1.8.9) una; urgency=medium
+mint-l-theme (1.8.9) una; urgency=medium
 
   * Remove Mint-X
   * Remove unnecessary files
@@ -30,7 +30,7 @@ mint-themes-legacy (1.8.9) una; urgency=medium
 
  -- Clement Lefebvre <root@linuxmint.com>  Fri, 26 Nov 2021 14:30:08 +0000
 
-mint-themes-legacy (1.8.8) uma; urgency=medium
+mint-l-theme (1.8.8) uma; urgency=medium
 
   * Copy of mint-themes 1.8.8
 

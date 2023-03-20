@@ -2,9 +2,9 @@
 
 import os
 
-VARIATIONS = ["Mint-Y-Legacy",
-              "Mint-Y-Legacy-Darker",
-              "Mint-Y-Legacy-Dark"]
+VARIATIONS = ["Mint-L",
+              "Mint-L-Darker",
+              "Mint-L-Dark"]
 
 DEST = '../../usr/share/themes'
 
@@ -41,8 +41,8 @@ if __name__ == '__main__':
     for variation in VARIATIONS:
         dest_folder = os.path.join(DEST, variation)
         os.system("mkdir -p %s" % dest_folder)
-        if variation == "Mint-Y-Legacy":
-            print("    Building Mint-Y-Legacy")
+        if variation == "Mint-L":
+            print("    Building Mint-L")
             os.system("cp index.theme %s/" % dest_folder)
             # Gtk2
             version_folder = os.path.join(dest_folder, "gtk-2.0")
@@ -65,13 +65,13 @@ if __name__ == '__main__':
             os.system("mkdir -p %s" % version_folder)
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
             os.system("cp -R cinnamon/light-assets %s" % version_folder)
-            os.system("cp cinnamon/mint-y-legacy-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
+            os.system("cp cinnamon/mint-l-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
             os.system("cp cinnamon/cinnamon.css %s" % version_folder)
             # XFWM
             os.system("cp -R xfwm4 %s" % dest_folder)
 
-        elif variation == "Mint-Y-Legacy-Darker":
-            print("    Building Mint-Y-Legacy-Darker")
+        elif variation == "Mint-L-Darker":
+            print("    Building Mint-L-Darker")
             os.system("cp index.theme-darker %s" % os.path.join(dest_folder, "index.theme"))
             # Gtk2
             version_folder = os.path.join(dest_folder, "gtk-2.0")
@@ -88,8 +88,8 @@ if __name__ == '__main__':
             os.system("cp gtk-3.0/gtk-dark.css %s" % version_folder)
             os.system("cp gtk-3.0/thumbnail.png %s" % version_folder)
 
-        elif variation == "Mint-Y-Legacy-Dark":
-            print("    Building Mint-Y-Legacy-Dark")
+        elif variation == "Mint-L-Dark":
+            print("    Building Mint-L-Dark")
             os.system("cp index.theme-dark %s" % os.path.join(dest_folder, "index.theme"))
             # Gtk2
             version_folder = os.path.join(dest_folder, "gtk-2.0")
@@ -116,7 +116,7 @@ if __name__ == '__main__':
             os.system("mkdir -p %s" % version_folder)
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
             os.system("cp -R cinnamon/dark-assets %s" % version_folder)
-            os.system("cp cinnamon/mint-y-legacy-dark-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
+            os.system("cp cinnamon/mint-l-dark-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
             os.system("cp cinnamon/cinnamon-dark.css %s" % os.path.join(version_folder, "cinnamon.css"))
             # XFWM
             os.system("rm -rf %s" % os.path.join(dest_folder, "xfwm4"))

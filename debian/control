@@ -1,12 +1,14 @@
-Source: mint-themes-legacy
+Source: mint-l-theme
 Section: gnome
 Priority: optional
-Maintainer: Clement Lefebvre <root@linuxmint.com>
+Maintainer: Linux Mint <root@linuxmint.com>
 Build-Depends: debhelper (>= 9), sassc
 Standards-Version: 3.9.5
 
-Package: mint-themes-legacy
-Depends: ${misc:Depends}, mint-y-icons
+Package: mint-l-theme
+Breaks: mint-themes-legacy
+Replaces: mint-themes-legacy
+Depends: ${misc:Depends}, mint-l-icons
 Architecture: all
-Description: Legacy Mint themes
- A collection of legacy mint themes.
+Description: Mint-L theme
+ The Mint-L theme.

@@ -55,31 +55,31 @@ def parse_dir(path):
 if len(sys.argv) < 2:
 
     # Cinnamon
-    parse_dir("src/Mint-Y-Legacy/cinnamon/sass")
-    parse_dir("src/Mint-Y-Legacy/cinnamon/common-assets")
-    parse_dir("src/Mint-Y-Legacy/cinnamon/dark-assets")
-    parse_dir("src/Mint-Y-Legacy/cinnamon/light-assets")
+    parse_dir("src/Mint-L/cinnamon/sass")
+    parse_dir("src/Mint-L/cinnamon/common-assets")
+    parse_dir("src/Mint-L/cinnamon/dark-assets")
+    parse_dir("src/Mint-L/cinnamon/light-assets")
 
     # GTK2
-    parse_dir("src/Mint-Y-Legacy/gtk-2.0/menubar-toolbar")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/apps.rc")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/gtkrc")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/gtkrc-dark")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/gtkrc-darker")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/main.rc")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/panel.rc")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/assets.svg")
-    parse_file("src/Mint-Y-Legacy/gtk-2.0/assets-dark.svg")
+    parse_dir("src/Mint-L/gtk-2.0/menubar-toolbar")
+    parse_file("src/Mint-L/gtk-2.0/apps.rc")
+    parse_file("src/Mint-L/gtk-2.0/gtkrc")
+    parse_file("src/Mint-L/gtk-2.0/gtkrc-dark")
+    parse_file("src/Mint-L/gtk-2.0/gtkrc-darker")
+    parse_file("src/Mint-L/gtk-2.0/main.rc")
+    parse_file("src/Mint-L/gtk-2.0/panel.rc")
+    parse_file("src/Mint-L/gtk-2.0/assets.svg")
+    parse_file("src/Mint-L/gtk-2.0/assets-dark.svg")
 
     # GTK3
-    parse_dir("src/Mint-Y-Legacy/gtk-3.0/sass")
-    parse_file("src/Mint-Y-Legacy/gtk-3.0/assets.svg")
+    parse_dir("src/Mint-L/gtk-3.0/sass")
+    parse_file("src/Mint-L/gtk-3.0/assets.svg")
 
     # Metacity
-    parse_dir("src/Mint-Y-Legacy/metacity-1")
+    parse_dir("src/Mint-L/metacity-1")
 
     # Xfwm4 (ignore this one... loads of very similar colors in there)
-    # parse_dir("src/Mint-Y-Legacy/xfwm4")
+    # parse_dir("src/Mint-L/xfwm4")
 
 else:
     # parse a different directory

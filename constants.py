@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Mint-Y-Legacy
+# Mint-L
 Y_HEX_ACCENT1 = ["#92b372"]  # BASE
 Y_HEX_ACCENT2 = ["#8fa876"]  # DARK
 Y_HEX_ACCENT3 = ["#afca95"]  # PRELIGHT/HOVER

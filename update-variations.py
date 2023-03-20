@@ -18,7 +18,7 @@ def usage ():
     sys.exit(1)
 
 def update_color (color):
-    variation = "src/Mint-Y-Legacy/variations/%s" % color
+    variation = "src/Mint-L/variations/%s" % color
     print("updating %s" % variation)
     os.system("rm -rf %s" % variation)
     os.system("mkdir -p %s/gtk-2.0" % variation)
@@ -41,9 +41,9 @@ def update_color (color):
     files.append("gtk-3.0/render-assets.sh")
 
     for file in files:
-        os.system("cp -R src/Mint-Y-Legacy/%s %s/%s" % (file, variation, file))
+        os.system("cp -R src/Mint-L/%s %s/%s" % (file, variation, file))
     for asset in assets:
-        os.system("cp -R src/Mint-Y-Legacy/%s %s/%s" % (asset, variation, asset))
+        os.system("cp -R src/Mint-L/%s %s/%s" % (asset, variation, asset))
 
     # Update assets svg
     for asset in assets:
@@ -76,7 +76,7 @@ else:
     if not color_variation in ["Aqua", "Blue", "Brown", "Grey", "Orange", "Pink", "Purple", "Red", "Sand", "Teal", "All"]:
         usage()
 
-# Mint-Y-Legacy variations
+# Mint-L variations
 curdir = os.getcwd()
 
 if color_variation == "All":
