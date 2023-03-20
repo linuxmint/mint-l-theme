@@ -1,0 +1,47 @@
+{
+  "styles": [
+    {
+      "name": "Mint-L",
+      "default": "light",
+      "mixed": [
+          {"name": "blue", "color": "#0c75de", "themes": "Mint-L-Blue", "gtk": "Mint-L-Darker-Blue", "cursor": "Bibata-Modern-Classic"},
+          {"name": "aqua", "color": "#1f9ede", "themes": "Mint-L-Aqua", "gtk": "Mint-L-Darker-Aqua", "cursor": "Bibata-Modern-Classic"},
+          {"name": "teal", "color": "#199ca8", "themes": "Mint-L-Teal", "gtk": "Mint-L-Darker-Teal", "cursor": "Bibata-Modern-Classic"},
+          {"name": "green", "color": "#35a854", "themes": "Mint-L", "gtk": "Mint-L-Darker", "cursor": "Bibata-Modern-Classic", "default": "true"},
+          {"name": "sand", "color": "#c5a07c", "themes": "Mint-L-Sand", "gtk": "Mint-L-Darker-Sand", "cursor": "Bibata-Modern-Classic"},
+          {"name": "brown", "color": "#aa876a", "themes": "Mint-L-Brown", "gtk": "Mint-L-Darker-Brown", "cursor": "Bibata-Modern-Classic"},
+          {"name": "grey", "color": "#70737a", "themes": "Mint-L-Grey", "gtk": "Mint-L-Darker-Grey", "cursor": "Bibata-Modern-Classic"},
+          {"name": "orange", "color": "#ff7139", "themes": "Mint-L-Orange", "gtk": "Mint-L-Darker-Orange", "cursor": "Bibata-Modern-Classic"},
+          {"name": "red", "color": "#e82127", "themes": "Mint-L-Red", "gtk": "Mint-L-Darker-Red", "cursor": "Bibata-Modern-Classic"},
+          {"name": "pink", "color": "#e54980", "themes": "Mint-L-Pink", "gtk": "Mint-L-Darker-Pink", "cursor": "Bibata-Modern-Classic"},
+          {"name": "purple", "color": "#8c5dd9", "themes": "Mint-L-Purple", "gtk": "Mint-L-Darker-Purple", "cursor": "Bibata-Modern-Classic"}
+        ],
+      "dark": [
+          {"name": "blue", "color": "#0c75de", "themes": "Mint-L-Dark-Blue", "icons":"Mint-L-Blue", "cursor": "Bibata-Modern-Classic"},
+          {"name": "aqua", "color": "#1f9ede", "themes": "Mint-L-Dark-Aqua", "icons":"Mint-L-Aqua", "cursor": "Bibata-Modern-Classic"},
+          {"name": "teal", "color": "#199ca8", "themes": "Mint-L-Dark-Teal", "icons":"Mint-L-Teal", "cursor": "Bibata-Modern-Classic"},
+          {"name": "green", "color": "#35a854", "themes": "Mint-L-Dark", "icons":"Mint-L", "cursor": "Bibata-Modern-Classic", "default": "true"},
+          {"name": "sand", "color": "#c5a07c", "themes": "Mint-L-Dark-Sand", "icons":"Mint-L-Sand", "cursor": "Bibata-Modern-Classic"},
+          {"name": "brown", "color": "#aa876a", "themes": "Mint-L-Dark-Brown", "icons":"Mint-L-Brown", "cursor": "Bibata-Modern-Classic"},
+          {"name": "grey", "color": "#70737a", "themes": "Mint-L-Dark-Grey", "icons":"Mint-L-Grey", "cursor": "Bibata-Modern-Classic"},
+          {"name": "orange", "color": "#ff7139", "themes": "Mint-L-Dark-Orange", "icons":"Mint-L-Orange", "cursor": "Bibata-Modern-Classic"},
+          {"name": "red", "color": "#e82127", "themes": "Mint-L-Dark-Red", "icons":"Mint-L-Red", "cursor": "Bibata-Modern-Classic"},
+          {"name": "pink", "color": "#e54980", "themes": "Mint-L-Dark-Pink", "icons":"Mint-L-Pink", "cursor": "Bibata-Modern-Classic"},
+          {"name": "purple", "color": "#8c5dd9", "themes": "Mint-L-Dark-Purple", "icons":"Mint-L-Purple", "cursor": "Bibata-Modern-Classic"}
+        ],
+      "light": [
+          {"name": "blue", "color": "#0c75de", "themes": "Mint-L-Blue", "cursor": "Bibata-Modern-Classic"},
+          {"name": "aqua", "color": "#1f9ede", "themes": "Mint-L-Aqua", "cursor": "Bibata-Modern-Classic"},
+          {"name": "teal", "color": "#199ca8", "themes": "Mint-L-Teal", "cursor": "Bibata-Modern-Classic"},
+          {"name": "green", "color": "#35a854", "themes": "Mint-L", "cursor": "Bibata-Modern-Classic", "default": "true"},
+          {"name": "sand", "color": "#c5a07c", "themes": "Mint-L-Sand", "cursor": "Bibata-Modern-Classic"},
+          {"name": "brown", "color": "#aa876a", "themes": "Mint-L-Brown", "cursor": "Bibata-Modern-Classic"},
+          {"name": "grey", "color": "#70737a", "themes": "Mint-L-Grey", "cursor": "Bibata-Modern-Classic"},
+          {"name": "orange", "color": "#ff7139", "themes": "Mint-L-Orange", "cursor": "Bibata-Modern-Classic"},
+          {"name": "red", "color": "#e82127", "themes": "Mint-L-Red", "cursor": "Bibata-Modern-Classic"},
+          {"name": "pink", "color": "#e54980", "themes": "Mint-L-Pink", "cursor": "Bibata-Modern-Classic"},
+          {"name": "purple", "color": "#8c5dd9", "themes": "Mint-L-Purple", "cursor": "Bibata-Modern-Classic"}
+        ]
+    }
+  ]
+}
