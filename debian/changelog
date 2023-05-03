@@ -1,3 +1,16 @@
+mint-l-theme (1.9.3) vera; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Rename Mint-Y-Legacy -> Mint-L (files)
+  * Rename a few more occurrences
+  * Add cinnamon styles file
+  * Cinnamon styles: Fix color codes
+
+  [ Michael Webster ]
+  * Gtk3: Fix setting the infobar backkground color.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 03 May 2023 12:14:09 +0100
+
 mint-l-theme (1.9.2) vera; urgency=medium
 
   * Update Cinnamon thumbnails
