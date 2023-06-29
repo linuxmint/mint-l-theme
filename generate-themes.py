@@ -63,6 +63,7 @@ for color in y_hex_colors1.keys():
             if (variant == "-Dark"):
                 os.system("cp sass/gtk-dark.scss sass/gtk.scss")
                 os.system("sassc ./sass/gtk.scss gtk.css")
+                os.system("sassc ./sass/gtk-dark.scss gtk-dark.css")
             elif (variant == "-Darker"):
                 os.system("cp sass/gtk-darker.scss sass/gtk.scss")
                 os.system("sassc ./sass/gtk.scss gtk.css")
