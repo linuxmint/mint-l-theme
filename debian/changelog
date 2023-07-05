@@ -1,3 +1,9 @@
+mint-l-theme (1.9.5) victoria; urgency=medium
+
+  * Mint-Y-Dark: Fix the label color of events in gnome calendar
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 05 Jul 2023 12:18:11 +0200
+
 mint-l-theme (1.9.4) victoria; urgency=medium
 
   * Add gtk-dark.css to Dark and Darker themes.
