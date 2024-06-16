@@ -1,3 +1,10 @@
+mint-l-theme (1.9.7) wilma; urgency=medium
+
+  [ fredcw ]
+  * Remove height from sound-player-overlay so that text can wrap cleanly
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 16 Jun 2024 12:28:16 +0100
+
 mint-l-theme (1.9.6) virginia; urgency=medium
 
   [ Michael Webster ]
