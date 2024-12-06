@@ -1213,54 +1213,6 @@ StScrollBar {
   }
 }
 
-//
-// Run dialog
-//
-.run-dialog {
-  padding: 10px 15px 10px 15px;
-  border: 1px solid $borders_color;
-  border-radius: 3px;
-  background-color: $bg_color;
-
-  > * { padding: 0; }
-
-  &-label {
-    font-size: 0;
-    font-weight: bold;
-    color: $fg_color;
-    padding-bottom: 0;
-  }
-
-  &-error-label { color: $error_color; }
-
-  &-error-box {
-    padding-top: 15px;
-    spacing: 5px;
-  }
-  &-completion-box {
-    padding-top: 5px;
-    padding-left: 15px;
-    font-size: 1em;
-  }
-  &-entry {
-    width: 21em;
-    padding: 7px;
-    border-radius: 3px;
-    caret-color: $osd_fg_color;
-    selected-color: $selected_fg_color;
-    selection-background-color: $selected_bg_color;
-
-    @include entry(osd);
-
-    &:focus { @include entry(focus); }
-  }
-  .modal-dialog-button-box {
-    border: none;
-    box-shadow: none;
-    background: none;
-  }
-}
-
 /* CinnamonMountOperation Dialogs */
 .cinnamon-mount-operation-icon {
   icon-size: 48px;
