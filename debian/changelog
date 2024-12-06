@@ -1,3 +1,9 @@
+mint-l-theme (1.9.9) xia; urgency=medium
+
+  * cinnamon: Remove incomplete runDialog styling in Mint-L
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 06 Dec 2024 12:02:35 +0000
+
 mint-l-theme (1.9.8) wilma; urgency=medium
 
   [ Michael Webster ]
