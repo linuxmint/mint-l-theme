@@ -16,6 +16,7 @@ $separator_color: if($variant == 'light', #DFDFDF, darken($bg_color, 6%));
 $link_color: #5294E2;
 $link_visited_color: #5294E2;
 
+$accent_color: $selected_bg_color;
 $selection_mode_bg: $selected_bg_color;
 $selection_mode_fg: $selected_fg_color;
 $warning_color: #f27835;

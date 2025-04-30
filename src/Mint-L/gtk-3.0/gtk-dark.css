@@ -3995,6 +3995,7 @@ window.background.lightdm .lightdm-combo {
   border-radius: 0;
   background-color: transparent; }
 
+@define-color accent_color #8fa876;
 @define-color theme_fg_color #DADADA;
 @define-color theme_text_color #DADADA;
 @define-color theme_bg_color #383838;
