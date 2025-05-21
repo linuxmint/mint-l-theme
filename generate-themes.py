@@ -96,6 +96,8 @@ for color in y_hex_colors1.keys():
             files.append(os.path.join(theme, "gtk-2.0", "menubar-toolbar", "gtkrc"))
             files.append(os.path.join(theme, "metacity-1", "metacity-theme-2.xml"))
             files.append(os.path.join(theme, "metacity-1", "metacity-theme-3.xml"))
+            files.append(os.path.join(theme, "libadwaita-1.5", "defaults-light.css"))
+            files.append(os.path.join(theme, "libadwaita-1.5", "defaults-dark.css"))
             for file in files:
                 if os.path.exists(file):
                     for accent in Y_HEX_ACCENT1:

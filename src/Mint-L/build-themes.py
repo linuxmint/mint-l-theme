@@ -69,6 +69,8 @@ if __name__ == '__main__':
             os.system("cp cinnamon/cinnamon.css %s" % version_folder)
             # XFWM
             os.system("cp -R xfwm4 %s" % dest_folder)
+            # LibAdwaita
+            os.system("cp -R libadwaita-1.5 %s" % dest_folder)
 
         elif variation == "Mint-L-Darker":
             print("    Building Mint-L-Darker")
@@ -87,6 +89,8 @@ if __name__ == '__main__':
             os.system("cp gtk-3.0/gtk-darker.css %s" % os.path.join(version_folder, "gtk.css"))
             os.system("cp gtk-3.0/gtk-dark.css %s" % version_folder)
             os.system("cp gtk-3.0/thumbnail.png %s" % version_folder)
+            # LibAdwaita
+            os.system("cp -R libadwaita-1.5 %s" % dest_folder)
 
         elif variation == "Mint-L-Dark":
             print("    Building Mint-L-Dark")
@@ -123,3 +127,5 @@ if __name__ == '__main__':
             os.system("rm -rf %s" % os.path.join(dest_folder, "xfwm4"))
             os.system("cp -R xfwm4-dark %s" % dest_folder)
             os.system("mv %s %s" % (os.path.join(dest_folder, "xfwm4-dark"), os.path.join(dest_folder, "xfwm4")))
+            # LibAdwaita
+            os.system("cp -R libadwaita-1.5 %s" % dest_folder)
