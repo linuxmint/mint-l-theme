@@ -1,3 +1,11 @@
+mint-l-theme (2.0.0) zara; urgency=medium
+
+  * Define accent-color
+  * Fix libAdw accent colors for Mint-L-Brown
+  * Add support for libAdwaita-1.5
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 21 May 2025 14:39:34 +0100
+
 mint-l-theme (1.9.9) xia; urgency=medium
 
   * cinnamon: Remove incomplete runDialog styling in Mint-L
