@@ -1,5 +1,6 @@
 @define-color mint_accent #92b372;
 @define-color mint_header #2f2f2f;
+@define-color mint_content #383838;
 @define-color mint_button_hover #454545;
 @define-color mint_button_unfocused #616166;
 
@@ -19,9 +20,9 @@
 @define-color error_bg_color @red_4;
 @define-color error_fg_color white;
 @define-color error_color #ff7b63;
-@define-color window_bg_color @mint_header;
+@define-color window_bg_color @mint_content;
 @define-color window_fg_color white;
-@define-color view_bg_color #404040;
+@define-color view_bg_color @mint_content;
 @define-color view_fg_color white;
 @define-color headerbar_bg_color @window_bg_color;
 @define-color headerbar_fg_color white;
@@ -39,10 +40,10 @@
 @define-color secondary_sidebar_backdrop_color #272727;
 @define-color secondary_sidebar_shade_color rgba(0, 0, 0, 0.25);
 @define-color secondary_sidebar_border_color rgba(0, 0, 0, 0.36);
-@define-color card_bg_color rgba(255, 255, 255, 0.08);
+@define-color card_bg_color @mint_content;
 @define-color card_fg_color white;
 @define-color card_shade_color rgba(0, 0, 0, 0.36);
-@define-color dialog_bg_color #383838;
+@define-color dialog_bg_color @mint_content;
 @define-color dialog_fg_color white;
 @define-color popover_bg_color #383838;
 @define-color popover_fg_color white;

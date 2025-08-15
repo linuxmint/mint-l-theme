@@ -1,6 +1,7 @@
 @define-color mint_accent #92b372;
 @define-color mint_header #d9d9d9;
-@define-color mint_button_hover #d9d9d9;
+@define-color mint_content #f0f0f0;
+@define-color mint_button_hover #fafafa;
 @define-color mint_button_unfocused #525255;
 
 /* GTK NAMED COLORS ---------------- use responsibly! */
@@ -19,9 +20,9 @@
 @define-color error_bg_color @red_3;
 @define-color error_fg_color white;
 @define-color error_color @red_4;
-@define-color window_bg_color #fafafa;
+@define-color window_bg_color @mint_content;
 @define-color window_fg_color rgba(0, 0, 0, 0.8);
-@define-color view_bg_color #ffffff;
+@define-color view_bg_color @mint_content;
 @define-color view_fg_color rgba(0, 0, 0, 0.8);
 @define-color headerbar_bg_color @window_bg_color;
 @define-color headerbar_fg_color rgba(0, 0, 0, 0.8);
@@ -39,10 +40,10 @@
 @define-color secondary_sidebar_backdrop_color #f6f6f6;
 @define-color secondary_sidebar_shade_color rgba(0, 0, 0, 0.07);
 @define-color secondary_sidebar_border_color rgba(0, 0, 0, 0.07);
-@define-color card_bg_color #ffffff;
+@define-color card_bg_color @mint_content;
 @define-color card_fg_color rgba(0, 0, 0, 0.8);
 @define-color card_shade_color rgba(0, 0, 0, 0.07);
-@define-color dialog_bg_color #fafafa;
+@define-color dialog_bg_color @mint_content;
 @define-color dialog_fg_color rgba(0, 0, 0, 0.8);
 @define-color popover_bg_color #ffffff;
 @define-color popover_fg_color rgba(0, 0, 0, 0.8);
