@@ -1,3 +1,10 @@
+mint-l-theme (2.0.1) zara; urgency=medium
+
+  [ Michael Webster ]
+  * libadwaita-1.5: Adapt window controls to match Gtk3.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 28 Aug 2025 10:09:24 +0200
+
 mint-l-theme (2.0.0) zara; urgency=medium
 
   * Define accent-color
