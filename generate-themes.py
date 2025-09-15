@@ -134,10 +134,3 @@ for color in y_hex_colors1.keys():
 
 # Files
 os.system("cp -R files/* ./")
-
-# Fixes for accent-color
-
-# The brown is too orange so libAdwaita uses orange instead of sand.
-os.system(f"sed -i '/define-color accent_color/ s/aa876a/c8ac69/' usr/share/themes/Mint-L-Brown/gtk-3.0/gtk.css")
-os.system(f"sed -i '/define-color accent_color/ s/aa876a/c8ac69/' usr/share/themes/Mint-L-Dark-Brown/gtk-3.0/gtk.css")
-os.system(f"sed -i '/define-color accent_color/ s/aa876a/c8ac69/' usr/share/themes/Mint-L-Dark-Brown/gtk-3.0/gtk-dark.css")
