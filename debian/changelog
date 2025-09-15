@@ -1,3 +1,13 @@
+mint-l-theme (2.0.2) gigi; urgency=medium
+
+  * libadwaita-1.7: Update build
+  * libadwaita-1.7: Add lib stylesheet
+  * libadwaita-1.7: Override window controls
+  * libadwaita 1.7: Update colors
+  * Revert "Fix libAdw accent colors for Mint-L-Brown"
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 15 Sep 2025 09:04:56 +0100
+
 mint-l-theme (2.0.1) zara; urgency=medium
 
   [ Michael Webster ]
