@@ -13,3 +13,6 @@ sudo cp -R usr/share/themes/Mint-L /usr/share/themes/Mint-L
 # Force refresh
 gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-L-Blue'
 gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-L'
+
+gsettings set org.cinnamon.theme name 'Mint-L-Blue'
+gsettings set org.cinnamon.theme name 'Mint-L'
