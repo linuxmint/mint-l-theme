@@ -40,7 +40,7 @@ stage {
     background-color: rgba(69, 69, 69, 0.55);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.05); }
 
-#menu-search-entry, .popup-menu #notification StEntry {
+#appmenu-search-entry, #menu-search-entry, .popup-menu #notification StEntry {
   padding: 7px;
   caret-size: 1px;
   selection-background-color: #92b372;
@@ -51,17 +51,17 @@ stage {
   background-color: #404040;
   border: 1px solid #202020;
   box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
-  #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
+  #appmenu-search-entry:focus, #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #appmenu-search-entry:hover, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
     color: #f0f0f0;
     background-color: #404040;
     border: 1px solid #92b372;
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
-  #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
+  #appmenu-search-entry:insensitive, #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
     color: rgba(240, 240, 240, 0.45);
     background-color: #383838;
     border-color: 1px solid #272727;
     box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.05); }
-  #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
+  #appmenu-search-entry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
     icon-size: 16px;
     warning-color: #F27835;
     padding: 0 4px; }
@@ -1143,6 +1143,99 @@ StScrollBar {
   color: #f0f0f0; }
 
 /* Context menu (at the moment only for favorites) */
+.appmenu-category-button-greyed, .appmenu-category-button-selected, .appmenu-category-button, .appmenu-application-button-selected, .appmenu-application-button, .appmenu-sidebar-button {
+  padding: 7px;
+  spacing: 5px;
+  border-radius: 4px; }
+
+.appmenu-background .popup-menu-content {
+  padding: 0; }
+
+.appmenu-sidebar {
+  background-color: #404040;
+  border-radius: 5px 0 0 5px;
+  border-right-width: 1px;
+  border-color: #202020; }
+  .appmenu-sidebar-user-box {
+    padding-top: 9px;
+    padding-bottom: 4.5px; }
+
+.appmenu-system-box {
+  spacing: 6px;
+  padding-left: 6px;
+  padding-right: 6px; }
+
+.appmenu-categories-box {
+  padding: 9px 21px; }
+
+.appmenu-applications-box {
+  padding: 9px; }
+
+.appmenu-applications-scrollbox {
+  padding-right: 3px; }
+
+.appmenu-sidebar-button {
+  padding: 3px 7px 3px 7px;
+  margin: 0 9px 0 9px; }
+  .appmenu-sidebar-button:hover {
+    background-color: #2f2f2f;
+    border-color: #202020; }
+
+.appmenu-system-button {
+  padding: 8.4px;
+  border: 1px solid #202020;
+  border-radius: 9999px;
+  background-color: #2f2f2f; }
+  .appmenu-system-button-lock:hover {
+    background-color: #404040; }
+  .appmenu-system-button-logout:hover {
+    background-color: #404040; }
+  .appmenu-system-button-shutdown:hover {
+    background-color: #FC4138;
+    color: white; }
+
+.appmenu-application-button-label {
+  padding: 0; }
+
+.appmenu-application-button-description {
+  color: #a0a0a0;
+  font-weight: 400;
+  font-size: 0.818em; }
+
+.appmenu-application-button:highlighted {
+  font-weight: bold; }
+
+.appmenu-application-button-selected {
+  background-color: #404040; }
+  .appmenu-application-button-selected:highlighted {
+    font-weight: bold; }
+
+.appmenu-category-button-label {
+  padding: 0; }
+
+.appmenu-category-button:hover {
+  background-color: blue; }
+
+.appmenu-category-button-selected {
+  background-color: #404040; }
+
+.appmenu-category-button-greyed {
+  color: rgba(240, 240, 240, 0.45);
+  font-style: italic; }
+  .appmenu-category-button-greyed StIcon {
+    opacity: 0.5; }
+
+.appmenu-search-box {
+  padding: 7px 7px 7px 9px;
+  border-bottom-width: 1px;
+  border-color: #202020; }
+
+.appmenu-search-entry-icon {
+  icon-size: 1em; }
+
+#appmenu-search-entry {
+  margin: 9px; }
+
 .info-osd {
   text-align: center;
   font-weight: bold;
@@ -1576,17 +1669,31 @@ StScrollBar {
     text-shadow: none; }
 
 .user-icon {
-  width: 32px;
-  height: 32px;
-  background-color: transparent;
-  border: none;
-  border-radius: 0; }
+  background-size: contain;
+  border-radius: 99px;
+  color: #f0f0f0;
+  border-color: transparent; }
+  .user-icon StIcon {
+    border: 1px solid transparent;
+    border-radius: 99px;
+    padding: 14px; }
+  .user-icon StIcon.highlighted {
+    border: 1px solid #f0f0f0;
+    border-radius: 99px;
+    padding: 14px; }
 
 .user-label {
   color: #f0f0f0;
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 1.2em;
   margin: 0px; }
+
+.user-widget.horizontal {
+  spacing: 7px; }
+
+.user-widget.vertical .user-widget-label {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.2em; }
 
 .desklet {
   color: #f0f0f0; }
