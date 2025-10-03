@@ -1001,53 +1001,6 @@ StScrollBar {
   .magnifier-zoom-region .full-screen {
     border-width: 0px; }
 
-#keyboard {
-  background-color: #353535;
-  border-width: 0;
-  border-top-width: 1px;
-  border-color: rgba(0, 0, 0, 0.4); }
-
-.keyboard-layout {
-  spacing: 10px;
-  padding: 10px; }
-
-.keyboard-row {
-  spacing: 15px; }
-
-.keyboard-key {
-  min-height: 2em;
-  min-width: 2em;
-  font-size: 1.4em;
-  font-weight: bold;
-  border-radius: 3px;
-  box-shadow: none;
-  color: #c3c3c3;
-  border: 1px solid #d9d9d9;
-  background-color: rgba(109, 109, 109, 0.4); }
-  .keyboard-key:hover {
-    color: #c3c3c3;
-    border: 1px solid rgba(2, 2, 2, 0.4);
-    background-color: rgba(127, 127, 127, 0.5); }
-  .keyboard-key:active, .keyboard-key:checked {
-    color: #ffffff;
-    border: 1px solid #92b372;
-    background-color: #92b372; }
-  .keyboard-key:grayed {
-    color: #606060;
-    border: 1px solid rgba(2, 2, 2, 0.4);
-    background-color: rgba(109, 109, 109, 0.25); }
-
-.keyboard-subkeys {
-  color: #c3c3c3;
-  padding: 5px;
-  -arrow-border-radius: 2px;
-  -arrow-background-color: #353535;
-  -arrow-border-width: 1px;
-  -arrow-border-color: rgba(0, 0, 0, 0.4);
-  -arrow-base: 20px;
-  -arrow-rise: 10px;
-  -boxpointer-gap: 5px; }
-
 .menu-favorites-box {
   padding: 10px;
   transition-duration: 300;
@@ -1784,3 +1737,177 @@ StScrollBar {
   border: 0px;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 0px; }
+
+/*
+On-Screen Keyboard (>= Cinnamon 6.6)
+*/
+#virtual-keyboard {
+  background-color: #2f2f2f;
+  box-shadow: inset 0 1px 0 0 #d9d9d9; }
+
+.vkeyboard-key-container {
+  padding: 4px;
+  spacing: 4px; }
+
+.vkeyboard-key {
+  color: #202020;
+  background-color: whitesmoke;
+  border: 1px solid #d9d9d9;
+  box-shadow: inset 0 2px 4px rgba(245, 245, 245, 0.05);
+  font-size: 1.4em;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #cacaca; }
+  .vkeyboard-key:focus {
+    color: #202020;
+    background-color: whitesmoke;
+    border: 1px solid #92b372;
+    box-shadow: inset 0 2px 4px rgba(245, 245, 245, 0.05); }
+  .vkeyboard-key:hover, .vkeyboard-key:checked {
+    color: #202020;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.05); }
+  .vkeyboard-key:active {
+    color: #ffffff;
+    background-color: #92b372;
+    border: 1px solid #92b372;
+    box-shadow: inset 0 2px 4px #92b372; }
+  .vkeyboard-key.shift-key-uppercase {
+    background-color: #717171; }
+  .vkeyboard-key.enter-key {
+    border-color: #92b372;
+    background-color: #a4a4a4;
+    border-width: 3px; }
+  .vkeyboard-key.shift-key-lowercase, .vkeyboard-key.escape-key, .vkeyboard-key.hide-key, .vkeyboard-key.non-alpha-key {
+    background-color: #a4a4a4; }
+    .vkeyboard-key.shift-key-lowercase:focus, .vkeyboard-key.escape-key:focus, .vkeyboard-key.hide-key:focus, .vkeyboard-key.non-alpha-key:focus {
+      color: #202020;
+      background-color: whitesmoke;
+      border: 1px solid #92b372;
+      box-shadow: inset 0 2px 4px rgba(245, 245, 245, 0.05); }
+    .vkeyboard-key.shift-key-lowercase:hover, .vkeyboard-key.shift-key-lowercase:checked, .vkeyboard-key.escape-key:hover, .vkeyboard-key.escape-key:checked, .vkeyboard-key.hide-key:hover, .vkeyboard-key.hide-key:checked, .vkeyboard-key.non-alpha-key:hover, .vkeyboard-key.non-alpha-key:checked {
+      color: #202020;
+      background-color: white;
+      border: 1px solid #d9d9d9;
+      box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.05); }
+    .vkeyboard-key.shift-key-lowercase:active, .vkeyboard-key.escape-key:active, .vkeyboard-key.hide-key:active, .vkeyboard-key.non-alpha-key:active {
+      color: #ffffff;
+      background-color: #92b372;
+      border: 1px solid #92b372;
+      box-shadow: inset 0 2px 4px #92b372; }
+  .vkeyboard-key StIcon {
+    icon-size: 1.125em; }
+
+.vkeyboard-subkeys {
+  color: #202020;
+  -arrow-border-radius: 6px;
+  -arrow-background-color: #F0F0F0;
+  -arrow-border-width: 1px;
+  -arrow-border-color: white;
+  -arrow-base: 20px;
+  -arrow-rise: 10px;
+  -boxpointer-gap: 7px; }
+
+.word-suggestions {
+  font-size: 1.4em;
+  spacing: 20px;
+  min-height: 20pt; }
+
+.candidate-popup-boxpointer {
+  -arrow-border-radius: 6px;
+  -arrow-background-color: #F0F0F0;
+  -arrow-border-width: 1px;
+  -arrow-border-color: #d9d9d9;
+  -arrow-base: 12px;
+  -arrow-rise: 6px;
+  -arrow-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+.candidate-popup-content {
+  padding: 0.5em;
+  spacing: 0.3em; }
+
+.candidate-index {
+  padding: 0 0.5em 0 0;
+  color: #070707; }
+
+.candidate-box {
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  border-radius: 4px;
+  color: black; }
+  .candidate-box:selected, .candidate-box:hover {
+    background-color: #AAAAAA;
+    color: #202020; }
+
+.candidate-page-button-box {
+  height: 2em; }
+  .vertical .candidate-page-button-box {
+    padding-top: 0.5em; }
+  .horizontal .candidate-page-button-box {
+    padding-left: 0.5em; }
+
+.candidate-page-button {
+  padding: 4px; }
+
+.candidate-page-button-previous {
+  border-radius: 4px 0px 0px 4px;
+  border-right-width: 0; }
+
+.candidate-page-button-next {
+  border-radius: 0px 4px 4px 0px; }
+
+.candidate-page-button-icon {
+  icon-size: 1em; }
+
+/*
+****** DEPRECATED
+
+On-Screen Keyboard (<= Cinnamon 6.4)
+*/
+#keyboard {
+  background-color: #353535;
+  border-width: 0;
+  border-top-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4); }
+
+.keyboard-layout {
+  spacing: 10px;
+  padding: 10px; }
+
+.keyboard-row {
+  spacing: 15px; }
+
+.keyboard-key {
+  min-height: 2em;
+  min-width: 2em;
+  font-size: 1.4em;
+  font-weight: bold;
+  border-radius: 3px;
+  box-shadow: none;
+  color: #c3c3c3;
+  border: 1px solid #d9d9d9;
+  background-color: rgba(109, 109, 109, 0.4); }
+  .keyboard-key:hover {
+    color: #c3c3c3;
+    border: 1px solid rgba(2, 2, 2, 0.4);
+    background-color: rgba(127, 127, 127, 0.5); }
+  .keyboard-key:active, .keyboard-key:checked {
+    color: #ffffff;
+    border: 1px solid #92b372;
+    background-color: #92b372; }
+  .keyboard-key:grayed {
+    color: #606060;
+    border: 1px solid rgba(2, 2, 2, 0.4);
+    background-color: rgba(109, 109, 109, 0.25); }
+
+.keyboard-subkeys {
+  color: #c3c3c3;
+  padding: 5px;
+  -arrow-border-radius: 2px;
+  -arrow-background-color: #353535;
+  -arrow-border-width: 1px;
+  -arrow-border-color: rgba(0, 0, 0, 0.4);
+  -arrow-base: 20px;
+  -arrow-rise: 10px;
+  -boxpointer-gap: 5px; }
