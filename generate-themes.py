@@ -62,15 +62,15 @@ for color in y_hex_colors1.keys():
             os.chdir("%s/gtk-3.0" % theme)
             if (variant == "-Dark"):
                 os.system("cp sass/gtk-dark.scss sass/gtk.scss")
-                os.system("sassc ./sass/gtk.scss gtk.css")
-                os.system("sassc ./sass/gtk-dark.scss gtk-dark.css")
+                os.system("pysassc ./sass/gtk.scss gtk.css")
+                os.system("pysassc ./sass/gtk-dark.scss gtk-dark.css")
             elif (variant == "-Darker"):
                 os.system("cp sass/gtk-darker.scss sass/gtk.scss")
-                os.system("sassc ./sass/gtk.scss gtk.css")
-                os.system("sassc ./sass/gtk-dark.scss gtk-dark.css")
+                os.system("pysassc ./sass/gtk.scss gtk.css")
+                os.system("pysassc ./sass/gtk-dark.scss gtk-dark.css")
             else:
                 os.system("rm sass/gtk-dark.scss sass/gtk-darker.scss")
-                os.system("sassc ./sass/gtk.scss gtk.css")
+                os.system("pysassc ./sass/gtk.scss gtk.css")
 
             os.system("rm -rf sass .sass-cache")
             os.chdir(curdir)
@@ -83,7 +83,7 @@ for color in y_hex_colors1.keys():
                 os.chdir("%s/cinnamon" % theme)
                 if (variant == "-Dark"):
                     os.system("cp sass/cinnamon-dark.scss sass/cinnamon.scss")
-                os.system("sassc ./sass/cinnamon.scss cinnamon.css")
+                os.system("pysassc ./sass/cinnamon.scss cinnamon.css")
                 os.system("rm -rf sass .sass-cache")
                 os.chdir(curdir)
 
