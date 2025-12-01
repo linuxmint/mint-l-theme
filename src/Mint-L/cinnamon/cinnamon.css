@@ -1351,6 +1351,7 @@ StScrollBar {
   padding-left: 4px; }
 
 .grouped-window-list-number-label {
+  font-size: 11px;
   z-index: 99;
   color: #d0d0d0; }
 
