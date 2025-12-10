@@ -1,3 +1,24 @@
+mint-l-theme (2.0.3) zena; urgency=medium
+
+  [ Clement Lefebvre ]
+  * test: Add cinnamon theme
+  * Add support for the new Cinnamon 6.6 menu
+
+  [ Michael Webster ]
+  * build: Use pysassc.
+  * cinnamon: Add support for new keyboard and ibus popups.
+
+  [ Clement Lefebvre ]
+  * Adapt to new menu improvements
+
+  [ fredcw ]
+  * cinnamon: GWL set fixed font size for window count badge (#20)
+
+  [ Clement Lefebvre ]
+  * Tune cinnamon window badges
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 10 Dec 2025 15:29:34 +0000
+
 mint-l-theme (2.0.2) gigi; urgency=medium
 
   * libadwaita-1.7: Update build
