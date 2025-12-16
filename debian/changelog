@@ -1,3 +1,9 @@
+mint-l-theme (2.0.4) zena; urgency=medium
+
+  * cinnamon: Add a bit of padding in menu sidebar buttons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 16 Dec 2025 10:09:58 +0000
+
 mint-l-theme (2.0.3) zena; urgency=medium
 
   [ Clement Lefebvre ]
