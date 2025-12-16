@@ -1146,8 +1146,8 @@ StScrollBar {
   spacing: 10px; }
 
 .appmenu-sidebar-button {
-  padding: 3px 7px 3px 7px;
-  margin: 0 10px 0 10px; }
+  padding: 4px 7px;
+  margin: 0 10px; }
   .appmenu-sidebar-button:hover {
     background-color: #2f2f2f;
     border-color: #202020; }
