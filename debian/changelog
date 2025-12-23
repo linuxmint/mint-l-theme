@@ -1,3 +1,9 @@
+mint-l-theme (2.0.5) zena; urgency=medium
+
+  * cinnamon: Fix category hover color
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 Dec 2025 13:41:48 +0000
+
 mint-l-theme (2.0.4) zena; urgency=medium
 
   * cinnamon: Add a bit of padding in menu sidebar buttons
