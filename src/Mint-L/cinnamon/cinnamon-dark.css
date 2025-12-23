@@ -1052,8 +1052,8 @@ StScrollBar {
     color: #ffffff;
     background-color: #92b372;
     border: 1px solid #202020; }
-  .menu-category-button-hover {
-    background-color: red;
+  .menu-category-button:hover {
+    background-color: rgba(128, 128, 128, 0.2);
     border-radius: 2px; }
   .menu-category-button-greyed {
     padding: 7px;
@@ -1188,7 +1188,7 @@ StScrollBar {
   padding: 0; }
 
 .appmenu-category-button:hover {
-  background-color: blue; }
+  background-color: rgba(128, 128, 128, 0.2); }
 
 .appmenu-category-button-selected {
   background-color: #404040; }
