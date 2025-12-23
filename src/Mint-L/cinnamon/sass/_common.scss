@@ -1352,7 +1352,7 @@ StScrollBar {
       border: 1px solid $borders_color;
     }
     &-hover {
-      background-color: red;
+      background-color: $base_color;
       border-radius: 2px;
     }
     &-greyed {
@@ -1553,7 +1553,7 @@ $base_padding: 7px;
 
     &-label { padding: 0; }
 
-    &:hover { background-color: blue; }
+    &:hover { background-color: $base_color; }
 
     &-selected {
       @extend %appmenu_button;
