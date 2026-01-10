@@ -1811,6 +1811,15 @@ On-Screen Keyboard (>= Cinnamon 6.6)
       background-color: #92b372;
       border: 1px solid #92b372;
       box-shadow: inset 0 2px 4px #92b372; }
+  .vkeyboard-key.modifier-key {
+    background-color: #5a5a5a; }
+    .vkeyboard-key.modifier-key:hover, .vkeyboard-key.modifier-key:checked {
+      color: #f0f0f0;
+      background-color: #525252;
+      border: 1px solid #202020;
+      box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05); }
+    .vkeyboard-key.modifier-key:latched {
+      background-color: #888888; }
   .vkeyboard-key StIcon {
     icon-size: 1.125em; }
 
