@@ -1,3 +1,13 @@
+mint-l-theme (2.0.6) zena; urgency=medium
+
+  [ fredcw ]
+  * Cinnamon: window-list applet set notification badge fixed font size (#21)
+
+  [ Michael Webster ]
+  * Cinnamon: Fix support for ctrl and alt OSK modifiers. (#24)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 16 Jan 2026 11:59:28 +0000
+
 mint-l-theme (2.0.5) zena; urgency=medium
 
   * cinnamon: Fix category hover color
