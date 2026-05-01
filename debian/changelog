@@ -1,3 +1,10 @@
+mint-l-theme (2.0.7) alfa; urgency=medium
+
+  [ Michael Webster ]
+  * Add support for libadwaita-1.9
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 01 May 2026 11:00:57 +0100
+
 mint-l-theme (2.0.6) zena; urgency=medium
 
   [ fredcw ]
