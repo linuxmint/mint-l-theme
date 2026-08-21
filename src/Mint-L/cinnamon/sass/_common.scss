@@ -1849,6 +1849,57 @@ $base_padding: 7px;
       background: rgba(255,255,255,0.2);
     }
   }
+
+  &-scrollbox {
+    &-scrollview {
+      &.vfade {
+        -st-vfade-offset: 68px;
+        -st-hfade-offset: 0;
+      }
+      &.hfade {
+        -st-hfade-offset: 68px;
+        -st-vfade-offset: 0;
+      }
+    }
+
+    &-button {
+      transition-duration: 100ms;
+      color: transparentize($selected_fg_color, 0.4);
+
+      &-icon {
+        icon-size: to_em(16px);
+        color: inherit;
+      }
+
+      &-start {
+        margin-right: 1px;
+
+        &.vertical {
+          margin-right: 0;
+          margin-bottom: 1px;
+        }
+      }
+
+      &-end {
+        margin-left: 1px;
+
+        &.vertical {
+          margin-left: 0;
+          margin-top: 1px;
+        }
+      }
+
+      &:hover {
+        background-color: transparentize(white, 0.7);
+        color: $selected_fg_color;
+      }
+
+      &:active {
+        background-color: transparentize(white, 0.6);
+        color: $selected_fg_color;
+      }
+    }
+  }
 }
 
 ///
