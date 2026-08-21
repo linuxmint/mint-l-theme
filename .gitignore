@@ -3,3 +3,12 @@ src/Mint-L/cinnamon/sass-cache
 
 # SASS cache files
 *.scssc
+debian/mint-l-theme
+debian/.debhelper
+debian/files
+debian/mint-l-theme.debhelper.log
+debian/mint-l-theme.substvars
+__pycache__
+
+usr
+
