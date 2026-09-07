@@ -1,3 +1,13 @@
+mint-l-theme (2.0.8) alfa; urgency=medium
+
+  [ Michael Webster ]
+  * cinnamon: Adapt to PopupDialog changes.
+  * cinnamon: Get rid of popup-dialog's shadow.
+  * cinnamon: Support for gwl overflow buttons, updates for screensaver.
+  * Update .gitignore.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 07 Sep 2026 16:05:03 +0100
+
 mint-l-theme (2.0.7) alfa; urgency=medium
 
   [ Michael Webster ]
