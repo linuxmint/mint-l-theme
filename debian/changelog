@@ -1,3 +1,10 @@
+mint-l-theme (2.0.9) adrien; urgency=medium
+
+  [ Luka ]
+  * fixed scrollbar overwriting window borders on wayland (#27)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 13 Oct 2026 14:44:00 +0100
+
 mint-l-theme (2.0.8) alfa; urgency=medium
 
   [ Michael Webster ]
