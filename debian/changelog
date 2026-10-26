@@ -1,3 +1,10 @@
+mint-l-theme (2.0.10) adrien; urgency=medium
+
+  [ Michael Webster ]
+  * cinnamon: Add support for the hover-click popup
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 26 Oct 2026 13:45:19 +0000
+
 mint-l-theme (2.0.9) adrien; urgency=medium
 
   [ Luka ]
